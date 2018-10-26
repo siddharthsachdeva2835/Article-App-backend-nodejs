@@ -2,7 +2,7 @@
   "name": "groove",
   "version": "1.0.0",
   "description": "article app backend",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/siddharthsachdeva2835/Article-App-backend-nodejs/issues"
   },
-  "homepage": "https://github.com/siddharthsachdeva2835/Article-App-backend-nodejs#readme"
+  "homepage": "https://github.com/siddharthsachdeva2835/Article-App-backend-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
